@@ -17,7 +17,7 @@ interface NoteListViewProps {
 
 export function NoteListView({ notes, onSelect, onCreate }: NoteListViewProps) {
   return (
-    <PanelSection title="QuickNotes">
+    <PanelSection title="Decky Notes">
       <PanelSectionRow>
         <ButtonItem layout="below" onClick={onCreate}>
           + New Note

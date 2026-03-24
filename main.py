@@ -12,11 +12,11 @@ class Plugin:
     async def _main(self):
         self.notes_path = os.path.join(decky.DECKY_PLUGIN_SETTINGS_DIR, "notes.json")
         self._load_notes()
-        decky.logger.info(f"QuickNotes loaded with {len(self.notes)} notes")
+        decky.logger.info(f"Decky Notes loaded with {len(self.notes)} notes")
 
     async def _unload(self):
         self._save_notes()
-        decky.logger.info("QuickNotes unloaded")
+        decky.logger.info("Decky Notes unloaded")
 
     def _load_notes(self):
         try:

@@ -1,5 +1,5 @@
 {
-  "name": "quicknotes",
+  "name": "decky-notes",
   "version": "0.1.0",
   "description": "Quick notes accessible from the QAM sidebar on Steam Deck",
   "type": "module",

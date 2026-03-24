@@ -5,3 +5,5 @@ pnpm-lock.yaml
 *.pyc
 __pycache__/
 py_modules/
+QuickNotes.zip
+.claude/

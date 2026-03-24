@@ -4,15 +4,15 @@ import { FaBook } from "react-icons/fa";
 import { QuickNotesPanel } from "./QuickNotesPanel";
 
 export default definePlugin(() => {
-  console.log("QuickNotes plugin loaded");
+  console.log("Decky Notes plugin loaded");
 
   return {
-    name: "QuickNotes",
-    titleView: <div className={staticClasses.Title}>QuickNotes</div>,
+    name: "Decky Notes",
+    titleView: <div className={staticClasses.Title}>Decky Notes</div>,
     content: <QuickNotesPanel />,
     icon: <FaBook />,
     onDismount() {
-      console.log("QuickNotes unloaded");
+      console.log("Decky Notes unloaded");
     },
   };
 });
