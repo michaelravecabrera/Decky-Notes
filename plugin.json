@@ -1,0 +1,11 @@
+{
+  "name": "QuickNotes",
+  "author": "thatp",
+  "flags": ["debug", "_root"],
+  "api_version": 1,
+  "publish": {
+    "tags": ["notes", "utility"],
+    "description": "Quick notes accessible from the QAM sidebar.",
+    "image": ""
+  }
+}
